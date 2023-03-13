@@ -315,12 +315,12 @@ function endGame(color, endedByTime) {
   blackTurn.stop();
   disableAll("white", "black");
 
-  if (endedByTime) {
-    const opponentColor = otherColor(color);
-    alert(`${opponentColor.toUpperCase()} WINS!!!`);
-  } else {
-    alert(`${color.toUpperCase()} WINS!!!`);
-  }
+//   if (endedByTime) {
+//     const opponentColor = otherColor(color);
+//     alert(`${opponentColor.toUpperCase()} WINS!!!`);
+//   } else {
+//     alert(`${color.toUpperCase()} WINS!!!`);
+//   }
 
 }
 
